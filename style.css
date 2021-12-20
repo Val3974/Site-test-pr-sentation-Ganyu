@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #33CEFF ;
+}
+nav h1{
+    color: blueviolet;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./Ganyu-Gi.jpg');
+    background-size: cover;
+    color: #ffff;
+    padding: 70px;
+}
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    color: #005DA5;
+
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align:center;
+    border-bottom: 1px solid;
+    color: #ffffff;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #ffff;
+    color: #000;
+    border:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgb(31, 112, 187);
+    color: rgb(255, 255, 255);
+
+}   
+.main .content .card.right{
+    flex: 0 0 70%;
+
+}
+.main .content .card .right img{
+    height: 250px;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #005DA5;
+    background-color: rgb(3, 32, 87);
+    color: rgb(255, 255, 255);
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display', sans-serif;
+    border-bottom: 1px solid #005DA5;
+    width: 20%;
+    padding-bottom: 5px;
+
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer .services .service{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(74, 56, 230);
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+    
